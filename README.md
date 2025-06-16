@@ -189,3 +189,69 @@ Sound effects or animations on correct guesses.
 
 Improved GUI design using layout managers or JavaFX.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SE_JP_Task5
+Java Swing Online Examination System – Project Description
+Overview:
+
+This project is a desktop-based Online Examination System developed using Java, utilizing Swing and AWT for the graphical user interface. The application simulates a basic computer-based test (CBT) environment, where users can answer multiple-choice questions within a time limit. The system calculates the score automatically and provides immediate feedback.
+
+🔧 Key Features
+Login Screen:
+Simple authentication interface to start the exam.
+
+MCQ Quiz Interface:
+
+Displays one question at a time with four multiple-choice options.
+
+Supports navigation between questions.
+
+Timer Functionality:
+
+Countdown timer (e.g., 10 minutes) limits the duration of the test.
+
+Automatically submits the exam when time runs out.
+
+Auto-Scoring System:
+
+Evaluates answers in real-time upon submission.
+
+Displays the total score immediately.
+
+GUI Design:
+
+Built with JFrame, JLabel, JButton, JRadioButton, and JOptionPane.
+
+Visually organized layout using setBounds() and event-driven handling.
+
+💻 Technologies Used
+Language: Java
+
+GUI Libraries: Java Swing and AWT
+
+Components: JFrame, JButton, JLabel, JRadioButton, Timer, JOptionPane
+
+⚙️ How It Works
+User logs into the application.
+
+A series of multiple-choice questions is presented, one by one.
+
+A countdown timer tracks the exam duration.
+
+The user selects answers and can navigate through questions.
+
+When the time is up or the user clicks Submit, the system evaluates answers.
+
+The final score is displayed in a dialog box.
+
+🚀 Future Enhancements (Optional)
+Add question randomization/shuffling.
+
+Enable admin panel to add/edit questions dynamically.
+
+Store results in a local database or file.
+
+Export results as PDF or print scorecard.
+
+Add question images or diagrams for visual exams.
