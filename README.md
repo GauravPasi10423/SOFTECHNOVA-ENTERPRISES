@@ -120,5 +120,72 @@ Enhanced design using advanced layout managers or JavaFX
 
 Keyboard input and shortcut key support
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+SE_JP_Task3
+Java Swing Number Guessing Game – Project Description
+Overview:
+
+This is a GUI-based Number Guessing Game developed using Java Swing. The game generates a random number between 1 and 100. The user attempts to guess the number, receiving real-time feedback whether the guess is too high, too low, or correct. The game includes options to reset the game or exit the application.
+
+🔧 Features
+Random Number Generation:
+Generates a random number between 1 and 100 on every new game.
+
+Real-Time Feedback:
+Provides hints if the guess is too high, too low, or correct.
+
+Input Validation:
+Ensures that user input is numeric and within the valid range (1-100).
+
+Reset Functionality:
+Allows users to start a new game with a new random number.
+
+Exit Button:
+Cleanly exits the game when the user chooses to quit.
+
+User Interface:
+
+Designed with JFrame, JLabel, JTextField, and JButton components.
+
+Dark-themed background with highlighted instruction and result texts.
+
+Buttons styled with colors for better visibility.
+
+💻 Technologies Used
+Language: Java
+
+GUI Toolkit: Java Swing (JFrame, JButton, JLabel, JTextField)
+
+Utility: Random class for number generation
+
+⚙️ How It Works
+At launch, the program generates a random number between 1 and 100.
+
+The user inputs a guess into the text field.
+
+On clicking Guess, the program compares the user input with the random number.
+
+The result label provides feedback:
+
+Too low
+
+Too high
+
+Correct guess
+
+The Reset button generates a new random number and clears previous input.
+
+The Exit button terminates the application.
+
+🚀 Future Improvements (Optional):
+Add scoring system based on number of attempts.
+
+Limit maximum number of attempts.
+
+Display history of guesses.
+
+Sound effects or animations on correct guesses.
+
+Improved GUI design using layout managers or JavaFX.
 
